@@ -172,3 +172,28 @@ footer {
 .hidden {
     display: none;
 }
+
+/* Favorites Page */
+.favorites-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.favorites-container {
+    margin-bottom: 2rem;
+}
+
+#favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#no-favorites {
+    color: #666;
+    font-size: 1.25rem;
+}
